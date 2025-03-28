@@ -1,0 +1,49 @@
+.box1, .box2, .box3, .box4, .box5{
+    font-size: 50px;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+.section1 {
+    border: 5px solid red;
+    height: 1500px;
+    width: 400;
+    position: relative;
+}
+
+.box1 {
+    background-color: lightblue;
+}
+
+.box2 {
+    background-color: lightcoral;
+    position: absolute;
+    /* left: 100px;
+    top: 100px; */
+    right: 10px;
+    bottom: 10px;
+    /* opacity: 0.3; */
+    z-index: 150;
+}
+
+.box3 {
+    background-color: lightgreen;
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    /* opacity: 0.5; */
+    z-index: 250;
+}
+
+.box4 {
+    background-color: lightpink;
+    position: sticky;
+    top: 50px;
+    left: 100px;
+    /* opacity: 0.8; */
+}
+
+.box5 {
+    background-color: lightseagreen;
+}

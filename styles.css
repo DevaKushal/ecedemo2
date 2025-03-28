@@ -1,0 +1,43 @@
+* {
+    font-size: 50px;
+}
+
+#pId {
+    color: green;
+}
+
+p {
+    color: brown;
+}
+
+.pClass {
+    color: blue;
+}
+
+.spanClass {
+    color: green !important;
+}
+
+#spanId {
+    color: red;
+}
+
+span {
+    color: yellow;
+}
+
+span#spanId {
+    color: aqua;
+}
+
+span.spanClass {
+    color: lightcoral;
+}
+
+span#spanId.spanClass {
+    color: brown;
+}
+
+section ~ div#divId.divClass span#spanId.spanClass {
+
+}
